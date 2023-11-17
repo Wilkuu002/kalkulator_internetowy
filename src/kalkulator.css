@@ -1,0 +1,46 @@
+/* Calculator.css */
+.kalkulator {
+    width: 30vh;
+    height:35em;
+    margin:auto ;
+    margin-top: 10vh;
+    border-radius: 10px;
+}
+
+/* Display.css */
+.ekran {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.wyrazenie {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.rezultat {
+    font-size: 4em;
+}
+
+/* Buttons.css */
+.guziki {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.guzikCzyszczenia {
+    grid-column: span 2;
+    background-color: #ff6666;
+}
+
+.guzikCalculate {
+    grid-column: span 2;
+    background-color: #66cc66;
+}
